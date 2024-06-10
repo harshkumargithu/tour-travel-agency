@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey Junction</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+</head>
+
+<body>
+
+    <!-------------------------------------------------HEADER SECTION----------------------------------------------------------------------------->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>J</span>OUNERY-<span>J</span>UNCTION</a>
+
+
+
+
+        <nav class="navbar">
+            <a href="#HOME">HOME</a>
+            <a href="#book"> BOOK</a>
+            <a href="#packages"> PACKAGES</a>
+            <a href="#services"> SERVICES</a>
+            <a href="#gallery"> GALLERY</a>
+            <a href="#review"> REVIEW</a>
+            <a href="#contact"> CONTACT</a>
+        </nav>
+        <div class="icons">
+
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+
+    </header>
+
+    <!---------------------------------------------------LOGIN FORM------------------------------------------------------------------------------->
+
+
+    <div class="login-form-container">
+        <div class="close-button">
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <form action="">
+            <h3>LOGIN</h3>
+
+            <input type="email" class="box" placeholder="your email">
+            <input type="password" class="box" placeholder="your password">
+            <div class="login">
+            <input type="submit" value="login now" class="btn">
+        </div>
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forgot passwprd<a href="#">click me</a></p>
+            <p>dont have ann account<a href="#">register </a></p>
+
+        </form>
+    </div>
+
+    <!------------------------------------------------------HOME SECTION-------------------------------------------------------------------------->
+
+    <section class="home" id="HOME">
+
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>discover new places with us ,adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+        
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="/vid-5.mp4"></span>
+
+        </div>
+        <div class="video-container">
+            <video src="/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+
+
+    <!----------------------------------------------------------BOOKING SECTION----------------------------------------------------------------------->
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="/Lovepik_com-402433170-traveling-boy.png" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guest">
+                </div>
+                <div class="inputBox">
+                    <h3>check in</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>check out</h3>
+                    <input type="date">
+                </div>
+                <div class="book-btn"></div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+    </section>
+    <!-----------------------------------------------------------PACKAGE SECTION----------------------------------------------------------------------->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="/IMAGES/bali.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> BALI</h3>
+                    <p> Bali is a tropical paradise that offers a perfect blend of natural beauty, rich culture, and
+                        adventure, making it a top choice for travelers from around the world. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$324.38 <span>$372.44</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/dubai.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> DUBAI</h3>
+                    <p>Dubai blends luxury, culture, and adventure with iconic architecture and world-class hospitality,
+                        offering an unforgettable travel experience. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$324.38 <span>$372.44</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/grand canyon.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> GRAND CANYON</h3>
+                    <p>The Grand Canyon offers an unparalleled mix of natural beauty, adventure, and tranquility, making
+                        it a must-visit destination for nature lovers and outdoor enthusiasts. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$324.38 <span>$372.44</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/japan.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> JAPAN</h3>
+                    <p>Japan is a destination that promises a unique and unforgettable journey for every traveler. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$372.44</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/lakshadeep.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> LAKSHADEEP</h3>
+                    <p> Lakshadeep is an ideal destination for those seeking tranquility and adventure in an unspoiled
+                        island setting. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$324.38 <span>$372.44</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/london.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> LONDON</h3>
+                    <p> London offers a rich tapestry of history, culture, and modern attractions, making it a
+                        must-visit destination for travelers seeking a dynamic and diverse experience.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$324.38 <span>$372.44</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="explore">
+            <a href="#" class="btn">Expkore More</a>
+        </div>
+    </section>
+
+
+    <!---------------SERVICES SECTION----------------------->
+
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>S</span>
+            <span>E</span>
+            <span>R</span>
+            <span>V</span>
+            <span>I</span>
+            <span>C</span>
+            <span>E</span>
+            <span>S</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable luxuries hotels</h3>
+                <p>Journey Junction offers affordable hotels that provide comfort and essential amenities. Enjoy clean, cozy rooms and convenient locations, ensuring a pleasant stay without breaking the bank. Travel economically with Journey Junction.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>best Cuisine and beverages</h3>
+                <p>Journey Junction is committed to providing the best cuisine and beverages. Enjoy a delectable array of dishes and refreshing drinks, curated to enhance your travel experience with exceptional flavors and quality.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Journey Junction prioritizes your safety by providing comprehensive safety guides. Our expert tips and guidelines ensure a secure and worry-free travel experience, allowing you to explore with confidence and peace of mind.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-life-ring"></i>
+                <h3>24x7 customer support</h3>
+                <p>Journey Junction offers 24x7 customer support to assist you at any time. Our dedicated team is always available to address your needs, ensuring a seamless and worry-free travel experience.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest Odyssey</h3>
+                <p>Journey Junction offers the fastest Odyssey services, ensuring quick and efficient travel solutions. Experience swift journeys with our expertly curated itineraries, designed to maximize your adventure while saving you time.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Journey Junction specializes in providing thrilling adventures, offering a wide range of exciting activities and experiences. Discover the world's wonders with our expertly planned adventure trips, designed for unforgettable memories.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Journey Junction invites you to explore the world with our curated global travel packages. Experience diverse cultures, breathtaking landscapes, and iconic landmarks as we take you on unforgettable journeys around the globe.</p>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------------GALLLERY SECTION-------------------------------------------------------------------------->
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>G</span>
+            <span>A</span>
+            <span>L</span>
+            <span>L</span>
+            <span>E</span>
+            <span>R</span>
+            <span>Y</span>
+        </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="/IMAGES/bali gallery.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing el</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/duabi gallery.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing el</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/grand canyon gallery.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing el</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/japan gallery.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing el</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/lakshwadeep gallery.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing el</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/london gallery.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing el</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/singapore gallery.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing el</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/sydney gallery.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing el</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/egypt.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing el</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---------------------------------------------------REVIEW SECTION--------------------------------------------------------------------------->
+
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>R</span>
+            <span>E</span>
+            <span>V</span>
+            <span>I</span>
+            <span>E</span>
+            <span>W</span>
+            <span>S</span>
+        </h1>
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/IMAGES/swati.png" alt="">
+                        <h3>Swati kumari</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta delectus saepe eaque, rerum voluptas inventore est cupiditate debitis, labore distinctio, sint vero recusandae incidunt optio id possimus eum ratione velit.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/IMAGES/suraj.png" alt="">
+                        <h3>Suraj Mehta</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta delectus saepe eaque, rerum voluptas inventore est cupiditate debitis, labore distinctio, sint vero recusandae incidunt optio id possimus eum ratione velit.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/IMAGES/riya.png" alt="">
+                        <h3>Riya kumari</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta delectus saepe eaque, rerum voluptas inventore est cupiditate debitis, labore distinctio, sint vero recusandae incidunt optio id possimus eum ratione velit.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/IMAGES/sanjeet.png" alt="">
+                        <h3>Sanjeet Prasad Verma</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta delectus saepe eaque, rerum voluptas inventore est cupiditate debitis, labore distinctio, sint vero recusandae incidunt optio id possimus eum ratione velit.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/IMAGES/shakshi.png" alt="">
+                        <h3>Shakshi kumari</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta delectus saepe eaque, rerum voluptas inventore est cupiditate debitis, labore distinctio, sint vero recusandae incidunt optio id possimus eum ratione velit.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/IMAGES/sonu.png" alt="">
+                        <h3>Sonu kumar</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta delectus saepe eaque, rerum voluptas inventore est cupiditate debitis, labore distinctio, sint vero recusandae incidunt optio id possimus eum ratione velit.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/IMAGES/shashank.jpg" alt="">
+                        <h3>Shashank kr. Jha</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta delectus saepe eaque, rerum voluptas inventore est cupiditate debitis, labore distinctio, sint vero recusandae incidunt optio id possimus eum ratione velit.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--------------------------------------------------CONTACT SECTION----------------------------------------------------------------------------->
+
+    <footer>
+
+        <section class="contact" id="contact">
+
+            <h1 class="heading">
+                <span>C</span>
+                <span>O</span>
+                <span>N</span>
+                <span>T</span>
+                <span>A</span>
+                <span>C</span>
+                <span>T</span>
+            </h1>
+
+            
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+
+        </section>
+<!----------------------------------------------------------FOOTER SECITON--------------------------------------------------------------------------->
+        <section class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>about us</h3>
+                    <p>Welcome to Journey Junction, where travel dreams become reality. Experience seamless adventures with our curated packages, from thrilling escapades to serene getaways. Enjoy exceptional services, 24/7 support, and unforgettable moments. Your extraordinary journey starts here.</p>
+                </div>
+
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#HOME">home</a>
+                    <a href="#book">booking</a>
+                    <a href="#packages">packages</a>
+                    <a href="#services">services</a>
+                    <a href="#gallery">gallery</a>
+                    <a href="#review">review</a>
+                    <a href="#contact">contact</a>
+                </div>
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#">youtube</a>
+                    <a href="#">instagram</a>
+                    <a href="#">facebook</a>
+                    <a href="#">linkedin</a>
+                    <a href="#">twitter</a>
+                </div>
+            </div>
+            <h1 class="credit">created by <span>harsh kr.sharma.</span>||all rights reserved||</h1>
+
+        </section>
+
+
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+<script src="/logic.js"></script>
+
+</html>
